@@ -23,3 +23,23 @@ Please follow the next rules.
 3. Every test should extend TestCase from PHPUnit\Framework\TestsCase
 4. A test is a public function starts with the word test
 5. All tests methods names must be descriptive no matter what, please look at the example test.
+
+
+# How to run tests
+
+## Run all tests in a folder
+```shell
+phpunit tests/
+```
+
+## Run a specific method  via cli
+> If I would like to run the testComputeOnePlus one i will type
+```shell
+phpunit tests/ --filter=testComputeOnePlusOne
+```
+
+### --color
+you can add the --color flag for more ux when logging for example
+```shell
+phpunit tests/ --filter=testComputeOnePlusOne --color
+```
