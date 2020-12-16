@@ -39,7 +39,7 @@ phpunit tests/ --filter=testComputeOnePlusOne
 ```
 
 ### --color
-you can add the --color flag for more ux when logging for example
+you can add the --color flag for more ux to the final output
 ```shell
 phpunit tests/ --filter=testComputeOnePlusOne --color
 ```
