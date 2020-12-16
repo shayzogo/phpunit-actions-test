@@ -1,0 +1,22 @@
+{
+  "name": "phpunit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shayzogo/phpunit-actions-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shayzogo/phpunit-actions-test/issues"
+  },
+  "homepage": "https://github.com/shayzogo/phpunit-actions-test#readme"
+}
